@@ -1,0 +1,46 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://images.techhive.com/images/article/2015/07/health-analytics-ts-100599204-primary.idge.jpg",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to the Healthcare Analytics Bot!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "yes",
+      "text": "I'm a chatbot in Beta right now, so please be kind. Below are a few of the tasks I can help you with.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Get an overview",
+      "url": "https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Analyze Report Data",
+      "data": "I'd like to analyze report data"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Find a Physician",
+      "data": "I'd like to find a physician."
+    }
+  ]
+}
